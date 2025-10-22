@@ -1,0 +1,46 @@
+package ex01;
+
+/*
+ * 작성자 : 백종현
+ * 작성일 : 2025.10.21
+ * 코드 의미 : 학습용
+ */
+
+/*
+ *  1. 한 파일 안에는 한 클래스만 있는 것이 일반적
+ *  2. 두개의 클래스가 존재하면 public 키워드는 한 곳만 지정
+ *  	--> public 키워드가 있는 곳이 클래스 파일명.
+ *  3. public이 없는 클래스가 두 개 이상 존재할 때는 파일명, 클래스명 아무거나 사용 가능
+ *  	단. main 함수가 있다면 main 함수가 있는 곳 클래스명을 파일명으로 기입.
+ */
+
+public class PrintExample {
+
+	public static void main(String[] args) {
+
+		System.out.println("Hello, Java");
+
+		System.out.print("안녕하세요, 백종현입니다.");
+		System.out.print("안녕하세요, 백종현입니다.");
+
+		/*
+		 * System.out.print("안녕하세요, 백종현입니다."); 
+		 * System.out.print("안녕하세요, 백종현입니다."); 
+		 * 여러 줄 주석 ctrl+shift+/ , 해제 ctrl+shift+\
+		 */
+
+		// 한줄 주석 
+		
+		
+
+		/*
+		 * System.out.print(); - 줄 바꿈 없음 System.out.println(); - 줄 바꿈 있음
+		 */
+
+	}
+
+}
+
+class test {
+
+}

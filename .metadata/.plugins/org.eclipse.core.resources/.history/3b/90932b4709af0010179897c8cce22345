@@ -1,0 +1,19 @@
+package test;
+
+public class Sample2 {
+
+	public static void main(String[] args) {
+		
+		Person p = new Person();
+				
+	}
+
+}
+
+
+class Person{
+	
+	String name;
+	int age;
+	
+}

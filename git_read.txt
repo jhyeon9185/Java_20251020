@@ -4,3 +4,5 @@
 
 
 shift + insert -> copy
+
+git clone >> download

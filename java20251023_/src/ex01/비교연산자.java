@@ -1,5 +1,7 @@
 package ex01;
 
+import java.util.Scanner;
+
 public class 비교연산자 {
 
 	public static void main(String[] args) {
@@ -41,6 +43,37 @@ public class 비교연산자 {
 		
 		System.out.println("------XOR 연산-----");
 		System.out.println(15 ^ 12);
+		
+		System.out.println("------삼항 연산자(조건 연산자)-----");
+		Scanner sc = new Scanner(System.in);
+		/*
+		System.out.println("나이 입력 : ");	
+		int age = sc.nextInt();
+		
+		String state = (age >= 20) ? "성인" : "미성년";
+		System.out.println("당신은 " + state);
+		*/
+		
+		/*
+		 * 정수 입력 > 2로 나누어서 나머지가 0이면 짝수, 홀수
+
+		System.out.println("정수 입력 : ");
+		int result = sc.nextInt();
+		
+		String total = ( result % 2 == 0 ) ? "짝수" : "홀수";
+		
+		System.out.println(result + "는 " + total);
+		*/
+		
+		/*
+		 * 정수 입력 : 3으로 나누어서 나머지 0,1,2 판별
+		 */
+		int number = sc.nextInt();
+		//int state = (number % 3 == 0) ? 0 : 1;
+		int state = (number % 3 == 0) ? 0 : (number % 3 == 1)? 1 : 2;
+		System.out.println(number + "을(를) 3으로 나눈 나머지는 " + state + "입니다.");
+		
+		
 	}
 
 }

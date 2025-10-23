@@ -1,8 +1,0 @@
-1. git add .
-2. git commit -m "first commit"
-3. git push
-
-
-* shift + insert > copy 
-
-* download > git clone (my link copy)

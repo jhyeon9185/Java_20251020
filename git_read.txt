@@ -3,6 +3,6 @@
 3. git push
 
 
-shift + insert -> copy
+* shift + insert > copy 
 
-git clone >> download
+* download > git clone (my link copy)

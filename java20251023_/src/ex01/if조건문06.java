@@ -16,7 +16,7 @@ public class if조건문06 {
 		 * 6세 미만  : 무료
 		 */
 		
-		int age = 7;
+		int age = 6;
 		int price = 2000;
 		double rate = 0;
 		

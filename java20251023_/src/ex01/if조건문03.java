@@ -16,21 +16,23 @@ public class if조건문03 {
 		
 		//int number = sc.nextInt();
 		
-		int number= 15;
+		int number= 50;
+		char cha1 = 'F';
 		
 		if(number >= 90) {
-			System.out.println("A학점");
+			//System.out.println("A학점");
+			cha1 = 'A';
 		}else if(number >= 80) {
-			System.out.println("B학점");
+			cha1 = 'B';
 		}else if(number >= 70){
-			System.out.println("C학점");
-		}else if(number >= 60){
-			System.out.println("D학점");
-		}else {
-			System.out.println("F학점");
+			//System.out.println("C학점");
+			cha1 = 'C';
+		}else if(number>=50 | number>=60){
+			cha1 = 'D';
 		}
-
-		System.out.println("===프로그램 종료======");
+		
+		System.out.println(cha1 + "학점");
+		//System.out.println("===프로그램 종료======");
 	}
 
 }

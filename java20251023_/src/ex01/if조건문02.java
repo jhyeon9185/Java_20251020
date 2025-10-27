@@ -10,15 +10,13 @@ public class if조건문02 {
 		
 		//int number = sc.nextInt();
 		
-		int number= 15;
+		int number= 20;
+		String str1 = "성인";
 		
-		if(number >= 20) {
-			System.out.println("당신은 성인입니다.");
-		}else {
-			System.out.println("당신은 미성년자입니다.");
+		if(number<20){
+			str1 = "미성년자";
 		}
-		
-		System.out.println("===프로그램 종료======");
+		System.out.println(str1 + "입니다.");
 	}
 
 }

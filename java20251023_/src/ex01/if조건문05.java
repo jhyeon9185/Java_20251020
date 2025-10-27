@@ -19,7 +19,6 @@ public class if조건문05 {
 				System.out.println("C학점");
 			}
 		}
-		
 		System.out.println("=====프로그램 종료======");
 	}
 

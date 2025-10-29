@@ -89,11 +89,8 @@ class Student{
 	}
 
 	public void study() {
-		System.out.println(name + " Java 공부 중입니다.");
-		
-		
-		
-	}// void
+		System.out.println(name + " Java 공부 중입니다.");	
+	}
 	
 }// class
 

@@ -1,0 +1,12 @@
+캡슐화
+
+상속
+
+다형성
+
+추상화
+
+public : 어디서나 접근o
+protected : 상속에서 접근o
+default : 같은 패키지 접근o
+private : 외부 접근x 내부 클래스에서만 접근o

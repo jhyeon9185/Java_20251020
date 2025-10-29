@@ -13,7 +13,6 @@ public class 입력X출력O{
 		System.out.println(s1.age);
 		System.out.println(s1.address);
 		s1.study();
-		//s1.add(5, 2);
 		
 		String addr = s1.add();
 		System.out.println(addr);
@@ -28,7 +27,6 @@ public class 입력X출력O{
 		System.out.println(s2.age);
 		System.out.println(s2.address);
 		s2.study();
-		//s2.add(10, 29);
 		addr = s2.add();
 		System.out.println(addr);
 		
@@ -48,7 +46,11 @@ class Student{
 	//함수 명 add, 반환 타입(return 값): int, 매개변수(입력값): 정수 2개(int형)
 	//반환 타입 String -> return "";
 	String add() {
+		
+		//String str = "가나다";
+		// return str;
 		return address;
+		
 	}
 	
 	

@@ -13,6 +13,7 @@ public class 입력X출력X{
 		System.out.println(s1.age);
 		System.out.println(s1.address);
 		s1.study();
+		
 		s1.info();
 		
 		System.out.println("-----------------------");
@@ -25,6 +26,7 @@ public class 입력X출력X{
 		System.out.println(s2.age);
 		System.out.println(s2.address);
 		s2.study();
+		
 		s2.info();
 		
 	}// main

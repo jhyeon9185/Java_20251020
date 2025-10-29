@@ -30,10 +30,7 @@ public class 입력O출력O{
 		num = s2.add(10, 29);
 		System.out.println("두 수의 합 : " + num);
 		
-		
-	
 	}// main
-
 }// class
 
 class Student{
@@ -45,7 +42,8 @@ class Student{
 		System.out.println(name + " Java 공부 중입니다.");
 	}// void
 	
-	//함수 명 add, 반환 타입(return 값): int, 매개변수(입력값): 정수 2개(int형)
+	// 함수 명 add, 매개변수(입력값): 정수 2개(int형)
+	// 반환 타입(return 값): int
 	int add(int n1, int n2) {
 		int sum = n1 + n2;
 		

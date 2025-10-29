@@ -32,8 +32,9 @@ public class ClassEx01 {
 
 /*
  *  클래스 - 멤버변수(속성), 멤버 메소드(함수)
- *  멤버변수 - 정적(상태), 멤버메소드 - 동적(행동)
+ *  멤버변수 - 정적(상태), 멤버 메소드 - 동적(행동)
  */
+
 class Student{
 	String name;
 	int age;
@@ -41,7 +42,7 @@ class Student{
 	
 	void study() {
 		System.out.println(name + " Java 공부 중입니다.");
-	}// void?
+	}// void
 	
 }// class
 
